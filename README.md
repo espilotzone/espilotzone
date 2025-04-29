@@ -36,3 +36,36 @@
     lucide.createIcons();
   </script></body>
 </html>
+
+/* Estilo profesional para EspilotZone */
+
+/* Variables de color */ :root { --gris-oscuro: #2f2f2f; --gris-claro: #f4f4f4; --azul-claro: #4A90E2; --blanco: #ffffff; }
+
+body { font-family: 'Open Sans', sans-serif; margin: 0; padding: 0; background-color: var(--gris-claro); color: var(--gris-oscuro); }
+
+header { background-color: var(--blanco); border-bottom: 1px solid #ddd; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; }
+
+.logo { font-size: 1.5rem; font-weight: bold; color: var(--azul-claro); }
+
+nav ul { list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0; }
+
+nav ul li a { text-decoration: none; color: var(--gris-oscuro); font-weight: 600; transition: color 0.3s; }
+
+nav ul li a:hover { color: var(--azul-claro); }
+
+main { padding: 2rem; }
+
+section.hero { text-align: center; padding: 4rem 2rem; background-color: var(--blanco); border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+
+section.hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+
+section.hero p { font-size: 1.2rem; color: #555; }
+
+footer { text-align: center; padding: 2rem; background-color: var(--blanco); border-top: 1px solid #ddd; margin-top: 2rem; }
+
+footer .social-icons { margin-top: 1rem; display: flex; justify-content: center; align-items: center; gap: 1rem; color: var(--azul-claro); }
+
+.fade-in { opacity: 0; transform: translateY(20px); animation: fadeInUp 1s ease-out forwards; }
+
+@keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+
